@@ -25,8 +25,6 @@ const createCardNode = (name, url) => {
 
 getMemes().then( value => {
   value.forEach( meme =>  {
-    let div = document.createElement("DIV");
-    div.innerHTML =  createCardNode(meme.name, meme.url);
-    contentDiv.appendChild(div);
+    contentDiv.innerHTML += createCardNode(meme.name, meme.url);
   })
 })

@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.content, .content div, .card, .card-body{
+#content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .card{
