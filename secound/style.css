@@ -1,9 +1,9 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 5;
     box-sizing: border-box;
 }
-#content{
+#content, .card-body{
     display: flex;
     flex-direction: column;
     align-items: center;
