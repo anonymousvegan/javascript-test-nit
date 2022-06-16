@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content, .content div, .card, .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width:  500px;
+    height:  auto;
+    border:  1px solid rgb(88, 88, 88, .5);
+    margin: 10px;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
